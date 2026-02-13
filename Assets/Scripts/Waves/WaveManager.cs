@@ -24,6 +24,9 @@ public class WaveManager : MonoBehaviour
     private int currentWave = 0;
     private bool isSpawning = false;
 
+    //mostrar “Oleada alcanzada: X”
+    public int CurrentWave => currentWave;
+
     /// <summary>
     /// Arranca el bucle de oleadas al iniciar.
     /// </summary>
