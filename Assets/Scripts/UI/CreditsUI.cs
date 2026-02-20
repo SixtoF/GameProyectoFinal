@@ -1,5 +1,8 @@
 using UnityEngine;
 
+/// <summary>
+/// Controla la UI de créditos: abrir/cerrar panel de controles.
+/// </summary>
 public class CreditsUI : MonoBehaviour
 {
     [Header("References")]

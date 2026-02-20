@@ -120,7 +120,7 @@ public class WaveManager : MonoBehaviour
     /// </summary>
     private IEnumerator WaitUntilNoEnemies()
     {
-        // Mientras haya enemigos o se esté spawneando, esperar
+        // Mientras haya enemigos o se este spawneando, esperar
         while (isSpawning || GameObject.FindGameObjectsWithTag("Enemy").Length > 0)
         {
             yield return new WaitForSeconds(0.2f);

@@ -3,7 +3,6 @@ using UnityEngine.InputSystem;
 
 /// <summary>
 /// Controla el movimiento, apuntado y disparo del jugador usando el New Input System.
-/// Requisito: todos los métodos comentados.
 /// </summary>
 public class PlayerController : MonoBehaviour
 {

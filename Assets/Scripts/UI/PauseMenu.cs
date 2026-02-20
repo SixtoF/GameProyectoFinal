@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
 
 /// <summary>
-/// Controla el menú de pausa (ESC) y sus botones.
+/// Controla el menu de pausa (ESC) y sus botones.
 /// </summary>
 public class PauseMenu : MonoBehaviour
 {
